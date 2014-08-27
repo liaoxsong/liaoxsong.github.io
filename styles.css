@@ -1,0 +1,85 @@
+
+@font-face{
+
+	font-family: sansationFont;
+	src:url(sansation/Sansation-Light.ttf);
+
+}
+
+
+@font-face {
+    font-family: sansationFont;
+    src: url(sansation/Sansation-Bold.ttf);
+    font-weight: bold;
+}
+div{
+	font-family: sansationFont;	
+}
+
+h1{
+	font-family: sansationFont;
+}
+
+ul{
+	display:inline-block;
+	color:red;
+	list-style-type: disc;
+	font-size: 13pt;
+}
+
+
+ul:visited{
+	color:sansationFont;
+
+
+}
+div#navi{
+	height:180px;
+	background-color: #f0c090;
+	color: green;
+	text-align: center
+}
+
+div#mainbody{
+
+	background-color: #d8c0c0;
+	height:100%;
+}
+
+div#blog{
+	text-align: left;
+	
+	color:black;
+
+
+}
+
+a{
+	color:red;
+  	padding-right: 25px;
+	text-decoration: none;
+}
+a.nopadding{
+	padding-right: 0px;
+}
+a:hover{
+	color:black;
+	text-decoration: underline;	
+}
+
+a.current{
+	color:black;
+	font-weight: bold;
+}
+
+p{
+	letter-spacing: 1px;
+
+}
+.center{
+
+	padding-left: 30%;
+	margin:auto;
+	padding-right: 30%
+
+}
