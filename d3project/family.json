@@ -1,0 +1,2628 @@
+{
+	"name":"God",
+	"children":[
+
+		{
+			"name":"Energy",
+			"value":"1",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"1",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"1",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"1",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"1",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"1",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"1",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"1",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"1",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"1",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"1",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"1",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"1",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"James",
+				     																					"lastname":"Bond",
+				     																					"id":"1",
+				     																					"value":"1",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"1",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"1",
+				     																						"region":"1",
+				     																						"country":"1",
+				     																						"global":"1",
+				     																						"short":"1",
+				     																						"medium":"1",
+				     																						"long":"1"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"1",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"1",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"0",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"1",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Brice",
+				     																					"lastname":"Aarrestad",
+				     																					"id":"2",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"0",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"1",
+				     																						"short":"0",
+				     																						"medium":"1",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"1",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"1",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"1",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"1",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"0",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"1",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"1",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"0",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"1",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"1",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"1",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Ozayr",
+				     																					"lastname":"Saloojee",
+				     																					"id":"3",
+				     																					"value":"1",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"0",
+				     																						"organization":"1",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"1",
+				     																						"region":"1",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"0",
+				     																						"medium":"1",
+				     																						"long":"1"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+
+		,
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		,
+
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+		,
+
+		{
+			"name":"Energy",
+			"value":"0",
+			"children":[
+				{"name":"Natural Disaster",
+				"value":"1",
+			     "children":[
+
+				     { "name":"Water & Wastewater Systems",
+				     	"value":"0",
+				     	"children":[
+				     		{
+				     			"name":"Food & Agriculture",
+				     			"value":"0",
+				     			"children":[
+
+				     				{
+				     					"name":"Terrorism & Violence",
+				     					"value":"0",
+				     					"children":[
+				     						{
+				     							"name":"Disaster Response",
+				     							"value":"0",
+				     							"children":[
+				     								{	
+				     									"name":"Communication & IT",
+				     									"value":"0",
+				     									"children":[{
+				     										"name":"Economic Disaster",
+				     										"value":"1",
+				     										"children":[{
+				     											"name":"Equity",
+				     											"value":"0",
+				     											"children":[{
+				     												"name":"Social Disaster",
+				     												"value":"0",
+				     												"children":[{
+				     													"name":"Society,Education & Culture",
+				     													"value":"0",
+				     													"children":[{
+				     														"name":"Disease",
+				     														"value":"0",
+				     														"children":[{
+				     															"name":"Health & HealthCare",
+				     															"value":"1",
+				     															"children":[{
+				     																"name":"Transportion Systems",
+				     																"value":"0",
+				     																"children":[{
+				     																	"name":"Resource Scarcity",
+				     																	"value":"0",
+				     																	"children":[{
+				     																		"name":"Urban Development",
+				     																		"value":"1",
+				     																		"children":[{
+				     																			"name":"Built Environment",
+				     																			"value":"1",
+				     																			"children":[{
+				     																				"name":"Climate Change Adaption & Mitigation",
+				     																				"value":"0",
+				     																				"children":[{
+				     																					"name":"Ecosystem&Environment",
+				     																					"firstname":"Marilyn",
+				     																					"lastname":"Bruin",
+				     																					"id":"4",
+				     																					"value":"0",
+				     																					"children":[{
+				     																						"name":"_",
+				     																						"individual":"1",
+				     																						"organization":"0",
+				     																						"community":"1",
+				     																						"city":"1",
+				     																						"state":"0",
+				     																						"region":"0",
+				     																						"country":"0",
+				     																						"global":"0",
+				     																						"short":"1",
+				     																						"medium":"0",
+				     																						"long":"0"
+
+				     																					}]
+				     																				}]
+				     																			}]
+				     																		}]
+
+				     																	}]
+				     																	}]
+
+				     																}]
+				     															}]
+				     														}]
+				     													}]
+				     												}]
+
+				     											}]
+
+				     										}]
+
+
+				     								}
+
+				     							]
+
+				     						}
+				     					]
+
+
+				     				}
+
+
+
+				     			]
+
+				     		}
+
+
+				     	]
+
+				     }
+
+			     ]
+
+			    }
+
+			]
+		}
+
+
+		
+
+	]
+}
