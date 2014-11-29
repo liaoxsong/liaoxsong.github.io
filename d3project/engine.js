@@ -229,9 +229,10 @@ function zoom() {
        });
     }
 
-
+     var ss = new Date();
      appendName();
-    
+     var stopss = new Date() - ss;
+     //console.log("append name takes " + stopss)
 
     //DRAW REGIONS CIRCLES
     var regions=[
@@ -341,112 +342,139 @@ function zoom() {
           return d.individual==1? regions[7].color: 0 ;}
       })
       .attr('fill','#FFFFFF')
- 
+  
+
+
+      //This code needs to be rewritten, the purpose is to append dots separately from dots
+
       //-====================================================
       //APPEND TERMS
       //====================================================
-      var terms =[
-        {"color":"#087F9A"},//long, termIndex =0
-        {"color":"#00ADEF"},//medium
-        {"color":"#A6DDF0"},//short
+      var termColor =[
+        {"long":"#087F9A"},//long, termIndex =0
+        {"medium":"#00ADEF"},//medium
+        {"short":"#A6DDF0"}//short
       ]
+
+      var sColor = "#A6DDF0";
+      var mColor = "#00ADEF";
+      var lColor = "#087F9A";
+
       var termDotRadius = 2.8;
 
-      function appendTermDots(termIndex,gap,id){
-        node.append("circle")
-        .style("fill",function(d){
-            if(d.depth==20){
-              //return only if id matches..id is in the parent node
-            return d.parent.id==id? terms[termIndex].color:'none';
+
+      
+      var positions = nodes.map(function(d) { return [d.x, d.y]; });
+
+      var start = new Date();
+
+      var dotgap = 30;
+
+      var dot0 = 30;
+
+      var gapBtw = 9;
+
+      for(var i = 20 ; i< positions.length ; i+= 20){
+
+        function makeDot(gap,color){
+          svg.append("circle")
+          .attr("r",termDotRadius)
+          .style("fill",color)
+          .attr("transform",function(){
+            var translatey = positions[i][1] + indentFromCenter+indentLastNode + gap;
+            return "rotate(" + (positions[i][0]- 90 ) + ")translate(" + translatey + ")";
+          })
+
+        }
+
+          if (nodes[i].short==1 && nodes[i].medium==0 && nodes[i].long==0)
+          {
+            makeDot(dot0,sColor)
+            makeDot(dot0+gapBtw,sColor)
+
           }
-        })
-        .attr("r",function(d){
-            if(d.depth==20){
+          else if (nodes[i].short==0 && nodes[i].medium==1 && nodes[i].long==0){
+            makeDot(dot0,mColor)
+            makeDot(dot0+gapBtw,mColor)
+            makeDot(dot0+gapBtw*2,mColor)
+            makeDot(dot0+gapBtw*3,mColor)
+          }
+          else if (nodes[i].short==0 && nodes[i].medium==0 && nodes[i].long==1)
+          {
 
-                  return d.parent.id==id? termDotRadius: 0;
-
-            }
-        })
-        .attr("transform", function(d) { 
-          
-
-          return d.x < 180 ? "translate("+gap+",0)" : "rotate(180)translate(-"+gap+",0)"; 
-        })
-
-      }
-
-      function appendLong(startDistance,id){
-
-        appendTermDots(0,startDistance+5,id)
-        appendTermDots(0,startDistance+15,id)
-        appendTermDots(0,startDistance+25,id)
-        appendTermDots(0,startDistance+35,id)
-        appendTermDots(0,startDistance+45,id)
-        appendTermDots(0,startDistance+55,id)
-      }
-
-      function appendMedium(startDistance,id){
-
-        appendTermDots(1,startDistance+5,id)
-        appendTermDots(1,startDistance+15,id)
-        appendTermDots(1,startDistance+25,id)
-        appendTermDots(1,startDistance+35,id)
-      }
-
-      function appendShort(startDistance,id){
-
-        appendTermDots(2,startDistance+5,id)
-        appendTermDots(2,startDistance+15,id)
-      }
-     var gapBetweenTerms = 31,
-         beginningDistance = 25;
-
-    function appendAll(node){
-      // var getId = node.id;
-
-      var getIndex = node.parent.id;
-
-      
-      if(node.long==1&&node.medium==1&&node.short==1){
-        appendShort(beginningDistance,getIndex)
-        appendMedium(beginningDistance+gapBetweenTerms,getIndex)
-        appendLong(beginningDistance+2.5*gapBetweenTerms,getIndex)
-      }
-
-      else if(node.long==1&&node.medium==1){
-        
-        appendMedium(beginningDistance,getIndex)
-        appendLong(beginningDistance+1.6*gapBetweenTerms,getIndex)
-      }
-      else if(node.medium==1&&node.short==1){
-         appendShort(beginningDistance,getIndex)
-         appendMedium(beginningDistance+gapBetweenTerms,getIndex)
-
-      }
-      else if(node.long==1&&node.short==1){
-        appendShort(beginningDistance,getIndex)
-        appendLong(beginningDistance+gapBetweenTerms,getIndex)
-
-      }
-
-      else if(node.long==1){
-        appendLong(beginningDistance,getIndex)
-      }
-      else if(node.medium==1){
-        appendMedium(beginningDistance,getIndex)
-      }
-      else if(node.short==1){
-        appendShort(beginningDistance,getIndex)
-      }
-
-      
-      
-    }
+            makeDot(dot0,lColor)
+            makeDot(dot0+gapBtw,lColor)
+            makeDot(dot0+gapBtw*2,lColor)
+            makeDot(dot0+gapBtw*3,lColor)
+            makeDot(dot0+gapBtw*4,lColor)
+            makeDot(dot0+gapBtw*5,lColor)
     
-    
-    for(var i=20;i<nodes.length;i+=20){
-        appendAll(nodes[i])
-    }
+          }
+          else if (nodes[i].short==1 && nodes[i].medium==1 && nodes[i].long==0){
+            
+            makeDot(dot0,sColor)
+            makeDot(dot0+gapBtw,sColor)
+
+            makeDot(dot0+gapBtw*3,mColor)
+            makeDot(dot0+gapBtw*4,mColor)
+            makeDot(dot0+gapBtw*5,mColor)
+            makeDot(dot0+gapBtw*6,mColor)
+
+          }
+          else if(nodes[i].short==0 && nodes[i].medium==1 && nodes[i].long==1){
+            
+
+            makeDot(dot0,mColor)
+            makeDot(dot0+gapBtw,mColor)
+            makeDot(dot0+gapBtw*2,mColor)
+            makeDot(dot0+gapBtw*3,mColor)
+
+            makeDot(dot0+gapBtw*5,lColor)
+            makeDot(dot0+gapBtw*6,lColor)
+            makeDot(dot0+gapBtw*7,lColor)
+            makeDot(dot0+gapBtw*8,lColor)
+            makeDot(dot0+gapBtw*9,lColor)
+            makeDot(dot0+gapBtw*10,lColor)
+          }
+          else if(nodes[i].short==1 && nodes[i].medium==0 && nodes[i].long==1){
+         
+            makeDot(dot0,sColor)
+            makeDot(dot0+gapBtw,sColor)
+
+            makeDot(dot0+gapBtw*3,lColor)
+            makeDot(dot0+gapBtw*4,lColor)
+            makeDot(dot0+gapBtw*5,lColor)
+            makeDot(dot0+gapBtw*6,lColor)
+            makeDot(dot0+gapBtw*7,lColor)
+            makeDot(dot0+gapBtw*8,lColor)
+          }
+          else if(nodes[i].short==1 && nodes[i].medium==1 && nodes[i].long==1){
+            makeDot(dot0,sColor)
+            makeDot(dot0+gapBtw,sColor)
+
+            makeDot(dot0+gapBtw*3,mColor)
+            makeDot(dot0+gapBtw*4,mColor)
+            makeDot(dot0+gapBtw*5,mColor)
+            makeDot(dot0+gapBtw*6,mColor)
+
+            makeDot(dot0+gapBtw*8,lColor)
+            makeDot(dot0+gapBtw*9,lColor)
+            makeDot(dot0+gapBtw*10,lColor)
+            makeDot(dot0+gapBtw*11,lColor)
+            makeDot(dot0+gapBtw*12,lColor)
+            makeDot(dot0+gapBtw*13,lColor)
+
+          }
+      }
+
+
+
+
+
+
+      var termtime = new Date() - start;
+      //console.log("term time takes " +termtime) 
+
 
     //==========================END OF APPENDING TERMS==========================
     
@@ -594,7 +622,7 @@ function zoom() {
       ]
 
       var otherarcRotation = - verticalCorrection;
-      console.log("first angle is " + departmentArc[0].endangle)
+      // console.log("first angle is " + departmentArc[0].endangle)
 
       for(var i =0;i< departmentArc.length;i++){
           thearc= d3.svg.arc()
@@ -612,20 +640,20 @@ function zoom() {
 
       }
 
-      // var arcPitt = d3.svg.arc()
-      //       .innerRadius(365)
-      //       .outerRadius(370)
-      //       .startAngle(0)
-      //       .endAngle(departmentArc[0].endangle)
+      var arcPitt = d3.svg.arc()
+            .innerRadius(365)
+            .outerRadius(370)
+            .startAngle(0)
+            .endAngle(departmentArc[0].endangle)
             
 
-      //       svg.append("path")
-      //         .attr("d",arcPitt)
-      //         .attr("fill",departmentArc[0].color)
-      //         .attr("transform","rotate("+(otherarcRotation)+ ")")
+            svg.append("path")
+              .attr("d",arcPitt)
+              .attr("fill",departmentArc[0].color)
+              .attr("transform","rotate("+(otherarcRotation)+ ")")
      // =================================================
      //  ADDING LEGEND ====================================
-      //====================================
+     //  ====================================
 
       var fieldData = [];
 
@@ -727,7 +755,7 @@ function zoom() {
         {"term":"long term (10+ yr)","color":"#087F9A"}
       ]
 
-      //
+      
 
      
 
