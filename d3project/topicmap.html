@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+
+<meta charset="UTF-8">
+        <meta name="author" content="University of Minnesota">
+        <meta name="description" content="University of Minnesota College of Design Project">
+        <link rel="shortcut icon" href="http://www1.umn.edu/twincities/favicon.ico" type="image/x-icon" />
+        <link href="library/css/main.css" rel="stylesheet" type="text/css">
+        <script src="library/js/main.js"></script>
+<script src="library/js/main.js"></script>
 <style>
 
 @font-face {
@@ -13,22 +20,19 @@ src: url(Akkurat-Normal.otf) format("opentype");
 }
 
 body{ 
-        font-family: Akkurat-Fett;
-        /*margin-left: auto;
+        /*font-family: Akkurat-Fett;
+        margin-left: auto;
         margin-right: auto;
         width:95%;*/
+
         background:#303030;
-      }
-.chart{
-      width:100%;
-    
 }
 
-.selector {
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    font-size:  10pt; 
+.chart{
+     /* width:100%;*/
+     margin:auto;
+     height:100%;
+    width:100%;
 }
 
 .overlay {
@@ -36,11 +40,160 @@ body{
   pointer-events: all;
 }
 
+button {
+    outline:none;
+    z-index: 1;
+    position: relative;
+    padding:15px;
+}
+
+#buttonoverlay{ /*two buttons as a whole, change this if position is to be adjusted*/
+    background-repeat: repeat-x;    
+    height:0px;
+    position: fixed;
+    top: 80%;
+    right: 5%;
+
+}
+
+#buttonoverlay .content{    
+    width: 42px; 
+
+    display:inline-block;
+    position:relative;
+
+}
+
+.b1{
+    position:absolute;
+    top:8%;
+    left:21%; 
+    background: url("buttons/zoom_in_default.png");
+    background-repeat:no-repeat;
+    color:#FFF;
+    border:0;
+}
+.b1:hover{
+   background:transparent url("buttons/zoom_in_hover.png") 
+   no-repeat 0 0;
+}
+.b2{
+    position:absolute;
+    left:21%;
+    top:56%;
+    background: url("buttons/zoom_out_default.png");
+    background-repeat:no-repeat;
+    color:#FFF;
+    border:0;
+}
+
+.b2:hover 
+{background:transparent url("buttons/zoom_out_hover.png") no-repeat 0 0;}
+
+
+#maintitle{ /* main title */
+  color:#00a8f0;
+  font-size: 28pt;
+  width:200px;
+  z-index: 1;
+  position: absolute;
+  font-family:Akkurat-Fett;
+  padding-left: 80px;
+  padding-top: 70px;
+  opacity: 0.9;
+
+
+}
+#description{ /* main title description */
+  padding-left: 80px;
+  color:#FFFFFF;
+  width:250px;
+  font-size: 15pt;
+  z-index:1;
+  position: absolute;
+  padding-top: 170px;
+  opacity: 0.6;
+}
 </style>
 <body>
+<div id="header">
+            <div id="broad-wrapper1">
+            <div id="campus_links">
+                <p>Campuses: </p>
+                <ul>
+                    <li><a href="http://www.umn.edu">Twin Cities</a></li>
+                    <li><a href="http://www.crk.umn.edu">Crookston</a></li>
+                    <li><a href="http://www.d.umn.edu">Duluth</a></li>
+                    <li><a href="http://www.morris.umn.edu">Morris</a></li>
+                    <li><a href="http://www.r.umn.edu">Rochester</a></li>
+                    <li><a href="http://www.umn.edu/campuses.php">Other Locations</a></li>
+                </ul>
+            </div>
+            </div>
+            <div id="broad-wrapper2">
+            <div id="headerUofM">
+                <div id="logo_uofm"><a href="http://www.umn.edu/">Go to the U of M home page</a></div>
+                <div id="search_area">
+                    <div id="search_nav"><a href="http://onestop.umn.edu/" id="btn_onestop">OneStop</a>
+                        <a href="https://www.myu.umn.edu/" id="btn_myu">myU</a></div>
+                    <div class="search">
+                        <form action="http://google.umn.edu/search" method="get" name="gsearch" id="gsearch" title="Search U of M Web sites">
+                            <label for="search_field">Search U of M Web sites</label>
+                            <input type="text" id="search_field" name="q" value="Search U of M Web sites"  title="Search text"  />
+                            <input class="search_btn" type="image" src="assets/img/search_button.gif" alt="Submit Search" value="Search" />
+                            <input name="client" value="searchumn" type="hidden" />
+                            <input name="proxystylesheet" value="searchumn" type="hidden" />
+                            <input name="output" value="xml_no_dtd" type="hidden" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
 
 
-<div id = "d3graph"></div>
+<div id = "maintitle">Resilience Convergence
+</div>
+<div id = "description">
+This map visualizes the collective effort at the University of Minnesota on resilience research.
+</div>
+
+
+<div id="buttonoverlay">
+    <div class = "content">
+      <img src="buttons/button_back_white.png" style="opacity:0.2"/> 
+      <button id="zoom_in" class="b1" />
+      <button id="zoom_out" class="b2"/>
+
+    </div>
+</div>
+<div id="d3graph">
+</div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script type='text/javascript' src='engine.js'></script>
+
+
+
+
+<div id="broad-wrapper3">
+        <div id="footer-wrapper">
+        <div class="grid_7 alpha required" id="footer_inner">
+            <ul class="copyright"><li>&copy; 2010 Regents of the <span style="color:#9AA7B1">University of Minnesota</span>. All rights reserved.</li>
+                <li>The University of Minnesota is an equal opportunity educator and employer</li>
+                <li>Last modified on August 26, 2010</li></ul>
+        </div>
+        <div class="grid_5 omega required" id="footer_right">
+            <ul class="footer_links">
+                <li>Twin Cities Campus: </li>
+                <li><a href="http://www1.umn.edu/pts/">Parking &amp; Transportation</a></li>
+                <li><a href="http://www.umn.edu/twincities/maps/index.html">Maps &amp; Directions</a></li></ul>
+            <br class="clearabove" />
+            <ul class="footer_links"><li><a href="http://www.directory.umn.edu/">Directories</a></li>
+                <li><a href="http://www.umn.edu/twincities/contact/">Contact U of M</a></li>
+                <li><a href="http://www.privacy.umn.edu/">Privacy</a></li>
+            </ul>
+            <br class="clearabove">
+        </div>
+        </div>
+ </div>
 
