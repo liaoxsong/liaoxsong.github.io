@@ -1,0 +1,429 @@
+
+body,div,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+body {
+    font:13px/1.231 arial,helvetica,clean,sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+.clearabove {line-height:0;height:0;font-size:0;clear:both;} /* Use on a clearing element following a float */
+
+/* TEXT *//* Basic Text Set */
+p,ol, ul {font-size:97%;margin:0 0 .5em 0;}
+
+/* List styles - edit as needed */
+ul {list-style-type: disc; margin:0 5px 0px 5px;padding-bottom:10px;}
+ol {list-style-type:decimal;margin:0 5px 0px 5px;padding-bottom:10px;}
+
+body.center {margin-left:auto;margin-right:auto;}
+
+#header{font-family:Arial, Helvetica, sans-serif;line-height:18px;color:#000;background:#fff;}
+#header ul, #header li, #header p, #header div{font-size:11px;}
+
+
+/******* Hide skip links *******************/
+#skipLinks{ position:absolute; left:-9999px }
+
+/*************************** CAMPUS LINKS ****************************/
+#campus_links{color: #fff; text-align:right; background-color:#000; padding-right:18px; line-height:22px; width: 1000px; margin: auto;}
+
+#campus_links a{color:#9AA7B1; text-decoration: none;/*Standard Maroon*/}
+#campus_links a:hover{color:#9AA7B1; /*Gray*/}
+
+#campus_links ul, #campus_links li, #campus_links p{display:inline;}
+#campus_links ul{margin:0;padding:0}
+#campus_links li{margin-left:10px;}
+
+
+/*************************** UOFM HEADER (MAROON BAR) ******************/
+
+#headerUofM{position:relative; height:63px; width: 1000px; margin: auto;}
+
+#logo_uofm{background:url(../../assets/img/logo_uofm_D2D.gif) no-repeat;height:62px;width:320px;}
+
+#logo_uofm a,#logo_uofm a:hover{/*this should leave the link - but push the words into the hidden overflow */
+display:block;height:62px; /*Must be same height as #logo_uofm*/width:0;padding-left:320px;/*Must be same as #logo_uofm width */overflow:hidden;}
+
+
+/************************ SEARCH BUTTONS (MYU AND ONE STOP) *****************/
+#search_area{position:absolute;right:0;top:0;text-align:right;}
+
+
+#search_nav{position:absolute;right:10px;text-align:right;top:5px;}
+
+#search_nav a{display:block;float:right;width:0px;height:25px;padding-left:73px;overflow:hidden;margin-left:5px;}
+
+#btn_myu{background:url(../../assets/img/btn_myu.gif);}
+
+#btn_onestop{background:url(../../assets/img/btn_onestop.gif);}
+
+
+/******************* SEARCH BOX ************************************/
+
+#gsearch{background: url(../../assets/img/search_field.gif) no-repeat; /* #f3c */height:22px ;width:269px;position:relative;top:35px;}
+
+#gsearch label{position:absolute; left:-9999px}
+
+#search_field{border:0;color:#666666;width:200px;position:absolute;top:3px;left:15px;font-size:11px;color:#333;}
+
+
+/* For the print style sheet */
+.leftprint, .rightprint { display:none;}
+
+
+.required {
+    display: inline;
+    float: left;
+    width: 500px;
+    background-color: #000;
+    color: #fff;
+}
+
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+
+/* Removes the space around the header graphic */
+#nospace {margin: 0;}
+.nopadding { padding: 0; }
+
+
+/* BODY CONTENT
+--------------------------------------------------------------------------------*/
+
+/* Adds padding to text in columns so that text doesn't span the full width of the grid column*/
+p,h1,h2,h3 {padding-left:10px; padding-right:10px;}
+p {padding-bottom: 6px}
+
+/* Styles headings on the home page to be the same size as those on secondary pages. */
+h2.home {font-size:161%;}
+h3.home { font-size:138.5%; color:#7a0019; font-style: normal; font-weight: normal; }
+
+
+/* Styles for left navigation */
+#main_nav_2 {line-height: 25px; width: 160px;margin: 0;}
+#main_nav_3 { margin: 10px 20px 0 0; line-height: 25px; width: 220px; }
+ul.main_nav li {margin:2px 0 0 -30px;list-style:none;}
+ul.main_nav li a {color:#7a0019; text-decoration:none;}
+ul.main_nav li a:link {text-decoration:none; color:#9AA7B1;}
+ul.main_nav li a:hover { color:#9AA7B1;}
+ul.main_nav li a:active {color:#9AA7B1;}
+ul.main_nav li a:visited {color:#9AA7B1;}
+
+
+.relatedlinks { font-size: 116%; font-weight: bold; margin-left: 0; margin-right:1px; padding-top:16px;}
+
+/* BREADCRUMBS */
+/* Use with template 2.6.4 */
+.breadcrumbs { padding-top: 2px; padding-bottom: 4px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #bbb7b0; }
+/* Use with template 2.7.3 */
+.crumb { padding-top: 4px; border: none 0; border-bottom: 3px solid #e4e4e4;border-right: 3px solid #e4e4e4; border-left: 3px solid #e4e4e4; background: #FFFFFF; }
+
+
+/* Removes link lines and other unsightly blemishes */
+.noline {text-decoration: none;}
+
+/*FOOTER*/
+
+#footer_inner { padding:5px 0 0 0; font-size: 90%; width:500px;}
+.copyright { float:left; margin-left: -30px; list-style:none;}
+
+#footer_right{ font-size: 90%; padding:5px 0 0 0; float: left; width: 500px; text-align: right;}
+ul.footer_links {float:right;padding-right: 10px; list-style:none;}
+ul.footer_links li { display:inline; padding-left: 10px; }
+ul.footer_links li a {color:#7a0019; text-decoration:none;}
+ul.footer_links li a:link {color:#9AA7B1;}
+ul.footer_links li a:visited {color:#9AA7B1;}
+ul.footer_links li a:hover { color:#9AA7B1;}
+ul.footer_links li a:active {color:#9AA7B1;}
+
+<!--Main-->
+body,div,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td,#glosul {margin:0;padding:0;}
+
+@font-face {
+    font-family: Akkurat_heavy;
+    src: url(../font/Akkurat-Fett.otf);
+}
+
+@font-face {
+    font-family: Akkurat_normal;
+    src: url(../font/Akkurat-Normal.otf);
+}
+
+@font-face {
+    font-family: Akkurat_normalKursiv;
+    src: url(../font/Akkurat-NormalKursiv.otf);
+}
+
+a {
+    text-decoration: none;
+}
+
+#footer-wrapper {
+    overflow: hidden;
+    width: 1000px;
+    margin-left: 100px;
+    margin-bottom: -200px;
+
+}
+
+#broad-wrapper1 {
+    background-color: #000;
+}
+
+#broad-wrapper2 {
+    background-image: url(../../assets/img/bg_header.gif);
+    background-repeat: repeat-x;
+    background-color: #600014;
+}
+
+#broad-wrapper3 {
+    background-color: #000;
+}
+
+#broad-wrapper-main {
+    background-color: #303030;
+}
+
+#main-pic {
+    margin-left: auto;
+    margin-right: auto;
+    height: 415px;
+    background-image: url(../img/web_header_final.png);
+    background-repeat: no-repeat;
+    background-size: 98.5%;
+    width: 1245px;
+}
+
+#two-main-wrapper {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: #303030;
+}
+
+#main-main {
+    display: block;
+    float: left;
+    width: 800px;
+}
+
+#main-main > div {
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu {
+    width: 1000px;
+    height: 0px;
+    margin: auto;
+}
+
+#main-aside {
+    margin:0;
+    padding: 0;
+    display: block;
+    float: none;
+    margin-left: 820px; /* spacing of menu from body */
+    width: 180px;
+    background-color: #404041;
+}
+
+#main-aside > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 17.5px;
+    border-top: 8px solid #fff;
+}
+
+
+/* right navigation type style */
+#main-aside > ul > li {
+    font-family: Akkurat_heavy, Helvetica, sans-serif;
+    font-size: 16pt;
+    color: #fff;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.clear-both {
+    clear: both;
+    height: 0;
+}
+
+h1, h2 {
+    font-family: Akkurat_heavy, Helvetica, sans-serif;
+    font-size: 45pt;
+}
+
+#rc {
+    line-height: 45pt;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.table-like {
+    display: table-cell;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+#addrtime {
+    border-top: 2px solid white;
+    font-family: Akkurat_normal, Helvetica, sans-serif;
+    font-size: 15pt;
+    padding-top: 10.5px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 800px;
+}
+
+#list1 {
+    padding-top: 1.75px;
+}
+
+h2 { /* less spacing between subtitles and line */
+    position: relative;
+    top: -12px;
+}
+
+#abouthead {
+    padding-bottom: 55px;
+}
+
+#aboutbody {
+    font-family: Akkurat_normal;
+    font-size: 16.5pt;
+    line-height: 22pt;
+    margin-top: 20px; /* more spacing between title and body */
+}
+
+table {
+    margin-top: 25px; /* more spacing between title and table */
+}
+
+.sche td {
+    height: 34px;
+    width: 400px;
+    border-top: 2pt solid  #29AAE1;
+    border-bottom: 2pt solid  #29AAE1;
+    font-size: 13pt;
+    font-family: Akkurat_normal;
+    color: white;
+}
+
+.sche td:nth-child(2) { /* schedule description shift */
+    position: relative;
+    left: -230px;
+}
+
+.twocolumn {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    color: #B2B2B2;
+    font-family: Akkurat_normalKursiv;
+    font-size: 17pt;
+    line-height: 25pt;
+}
+
+.glosref {
+    font-family: Akkurat_normalKursiv;
+    font-size: 10pt;
+    color: #FBED21;
+}
+
+#glosul {
+    cursor: pointer;
+    width: 130px; /*30*/
+    float: right;
+    list-style-type: none;
+    font-size: 10pt; /*17*/
+    line-height: 21pt; /* 31*/
+    font-family: Akkurat_normal;
+    color: #808080;
+}
+
+#glospa {
+    width: 72%;
+    float: left;
+    font-size: 13.5pt;
+    line-height: 19pt;
+    font-family: Akkurat_normal;
+    color: #fff;
+}
+
+#gloshead {
+    font-family: Akkurat_normal, Helvetica, sans-serif;
+    font-size: 13.5pt;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+#ul0 {
+    color: #FBED21;
+}
+
+.spanelement {
+    display: inline;
+    width: 100;
+    height: 100;
+    color: #fff;
+    position: relative;
+    top: -138px;
+}
+
+.sectionpart {
+    padding-top: 17.5px;
+    padding-bottom: 65px;
+    border-top-width: 6pt;
+    border-top-style: solid;
+}
+
+#fi {
+    border-top-color: #fff;
+    color: #fff;
+}
+
+#abo {
+    border-top-color: #00E6AB;
+    color: #00E6AB;
+}
+
+#sch {
+    border-top-color: #29AAE1;
+    color: #29AAE1;
+}
+
+#glo {
+    border-top-color: #FBED21;
+    color: #FBED21;
+}
+
+#tm {
+    border-top-color: #fff;
+    color: #fff;
+    margin:auto;
+    height: auto;
+}
+
+.gray {
+    color: rgb(128,128,128);
+}
+
+.trPic{ width:800px; height:400px; background: url(../../assets/img/topicmaplink.png) no-repeat; 
+ border:0px solid #000000; } 
+.trPic .redO{ position:relative; top:0px; width:800px; height:400px; background:#642E11; opacity:0; } 
+
+.trPic:hover .redO { opacity:0.7; }
+
