@@ -617,101 +617,101 @@ var extra = [100,200,400,650,800,900,700];
     //==========================ANIMATION==========================  ^O^
 
 
-    // var tooltip = d3.select("body").append("div")
-    //       .style("position","absolute")
-    //       .style("padding","0 10px")
-    //       .style("background","white")
-    //       .attr("class","selector")
-    //       .style("opacity",0)
+    var tooltip = d3.select("body").append("div")
+          .style("position","absolute")
+          .style("padding","0 10px")
+          .style("background","white")
+          .attr("class","selector")
+          .style("opacity",0)
 
 
-    // node.on("mouseover",function(d,i){
+    node.on("mouseover",function(d,i){
 
-    //     tooltip.transition()
-    //       .style("opacity",.7)
+        tooltip.transition()
+          .style("opacity",.7)
 
-    //     var tooltiptext=[];
+        var tooltiptext=[];
 
-    //     function insertLineBreak(regionarray){
-    //       if(regionarray.length>3){
-    //         return "<br";
-    //       }
-    //     }
-    //     if(d.depth<19){
-    //       tooltiptext=d.name;
-    //       tooltip.html(tooltiptext)
-    //       .style('left',(d3.event.pageX +10 ) + 'px')
-    //       .style('top', (d3.event.pageY ) + 'px')
+        function insertLineBreak(regionarray){
+          if(regionarray.length>3){
+            return "<br";
+          }
+        }
+        if(d.depth<19){
+          tooltiptext=d.name;
+          tooltip.html(tooltiptext)
+          .style('left',(d3.event.pageX +10 ) + 'px')
+          .style('top', (d3.event.pageY ) + 'px')
          
-    //       ;
-    //     }
-    //     else if (d.depth==20){
-    //         if(d.individual==1){
-    //           tooltiptext.push("individual<br>")
-    //         }
-    //         if(d.organization==1){
-    //           tooltiptext.push("organization<br>")
-    //         }
-    //         if(d.community==1){
-    //           tooltiptext.push("community<br>")
-    //         }
-    //         if(d.city==1){
-    //           tooltiptext.push("city<br>")
-    //         }
-    //         if(d.state==1){
-    //           tooltiptext.push("state<br>")
-    //         }
-    //         if(d.region==1){
-    //           tooltiptext.push("region<br>")
-    //         }
-    //         if(d.country==1){
-    //           tooltiptext.push("country<br>")
-    //         }
-    //         if(d.global==1){
-    //           tooltiptext.push("global<br>")
-    //         }
-    //         tooltip.html(tooltiptext.join(" "))
-    //             .style('left',(d3.event.pageX +10 ) + 'px')
-    //             .style('top', (d3.event.pageY ) + 'px')
-    //             ;
-    //     }
+          ;
+        }
+        else if (d.depth==20){
+            if(d.individual==1){
+              tooltiptext.push("individual<br>")
+            }
+            if(d.organization==1){
+              tooltiptext.push("organization<br>")
+            }
+            if(d.community==1){
+              tooltiptext.push("community<br>")
+            }
+            if(d.city==1){
+              tooltiptext.push("city<br>")
+            }
+            if(d.state==1){
+              tooltiptext.push("state<br>")
+            }
+            if(d.region==1){
+              tooltiptext.push("region<br>")
+            }
+            if(d.country==1){
+              tooltiptext.push("country<br>")
+            }
+            if(d.global==1){
+              tooltiptext.push("global<br>")
+            }
+            tooltip.html(tooltiptext.join(" "))
+                .style('left',(d3.event.pageX +10 ) + 'px')
+                .style('top', (d3.event.pageY ) + 'px')
+                ;
+        }
 
-    //     //MAKE DOTS BIGGER 
-    //     if(d.depth>0 && d.value==1){
+        //MAKE DOTS BIGGER 
+        if(d.depth>0 && d.value==1){
 
-    //       //INCREASE THE RADIUS
-    //       if(d.depth<20){
-    //         d3.select(this).select('circle')
-    //           .transition()
-    //           .duration(120)
-    //           .style('cursor','none')
-    //           .attr('r',function(d){
-    //             return dots[d.depth].isfull==0? dotRadius + 1.5 : dotRadius + 3;
-    //           })
+          //INCREASE THE RADIUS
+          if(d.depth<20){
+            d3.select(this).select('circle')
+              .transition()
+              .duration(120)
+              .style('cursor','none')
+              .attr('r',function(d){
+                return dots[d.depth].isfull==0? dotRadius + 1.5 : dotRadius + 3;
+              })
 
-    //       }
+          }
 
       
 
-    //     }})
-    //     //when mouse move out, smake dots original size
-    //     .on("mouseout",function(d,i){
+        }})
+        //when mouse move out, smake dots original size
+        .on("mouseout",function(d,i){
 
-    //       tooltip.html("")
-    //       if(d.depth>0 && d.value==1){
-    //         if(d.depth<20){
-    //             d3.select(this).select('circle')
-    //               .transition()
-    //               .duration(250)
-    //               .style('cursor','none')
-    //               .attr('r',function(d){
-    //                 return dots[d.depth].isfull==0? dotRadius - dotReducer : dotRadius;
+          tooltip.html("")
+          if(d.depth>0 && d.value==1){
+            if(d.depth<20){
+                d3.select(this).select('circle')
+                  .transition()
+                  .duration(250)
+                  .style('cursor','none')
+                  .attr('r',function(d){
+                    return dots[d.depth].isfull==0? dotRadius - dotReducer : dotRadius;
           
-    //               })
-    //           }
+                  })
+              }
 
-    //       }
-    //     })
+          }
+        })
 
 
       //========================
