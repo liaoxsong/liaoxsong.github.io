@@ -13,7 +13,7 @@
     font-weight: bold;
 }
 div{
-	font-family: sansationFont;	
+	font-family: sansationFont;
 }
 
 h1{
@@ -35,28 +35,24 @@ ul:visited{
 }
 div#navi{
 	height:180px;
-	background-color: #f0c090;
-	color: green;
+	background-color: #F5DA81;
+	color: black;
 	text-align: center
 }
 
 div#mainbody{
-
-	background-color: #d8c0c0;
+	background-color: #DCDCDC;
 	height:100%;
 }
 
 div#blog{
 	text-align: left;
-	
 	color:black;
-
-
 }
 
 a{
-	color:red;
-  	padding-right: 25px;
+	color:blue;
+  padding-right: 25px;
 	text-decoration: none;
 }
 a.nopadding{
@@ -64,7 +60,7 @@ a.nopadding{
 }
 a:hover{
 	color:black;
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 a.current{
@@ -78,8 +74,8 @@ p{
 }
 .center{
 
-	padding-left: 30%;
+	padding-left: 15%;
 	margin:auto;
-	padding-right: 30%
+	padding-right: 15%
 
 }
