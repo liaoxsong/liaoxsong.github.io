@@ -2,13 +2,14 @@
 * {
  font-family: Arial;
 }
-div{
+
+/*div{
 	font-family: sansationFont;
 }
 
 h1{
 	font-family: sansationFont;
-}
+}*/
 
 ul{
 	display:inline-block;
@@ -17,12 +18,10 @@ ul{
 	font-size: 13pt;
 }
 
-
+/*
 ul:visited{
 	color:sansationFont;
-
-
-}
+}*/
 div#navi{
 	height:180px;
 	background-color: #F5DA81;
@@ -35,6 +34,13 @@ div#mainbody{
 	height:100%;
 }
 
+
+div#mainpage {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:  #DCDCDC;
+	height:100%;
+}
 div#blog{
 	text-align: left;
 	color:black;
@@ -60,7 +66,6 @@ a.current{
 
 p{
 	letter-spacing: 1px;
-
 }
 .center{
 
