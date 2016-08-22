@@ -65,9 +65,6 @@ a.current{
 	font-weight: bold;
 }
 
-p{
-	letter-spacing: 1px;
-}
 .center{
 	padding-left: 15%;
 	margin:auto;
@@ -99,4 +96,15 @@ div.logo {
 
 h3 {
     text-align: left;
+}
+
+.gifcontainer {
+	display: flex;
+	justify-content: center;
+	/* for horizontal alignment */
+	align-items: center;
+}
+
+.giftext {
+	padding: 20px;
 }
