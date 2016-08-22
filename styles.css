@@ -75,27 +75,29 @@ a.current{
 	display: flex;
 }
 
-div.logo {
-    margin: 40px;
-    float: left;
-    width: auto;
+.left-col{
+	max-width: 150px; width: 100%;
+	margin-right: 3%;
+	margin-left: 3%;
 }
-
 
 .logocontainer {
   border: 0;
-  float: left;
+  width: 100%;
   position: relative;
 	margin-right: 20;
+}
+
+.logocontainer img{
+	width: 100%;
 }
 
 .cornerimage {
   border: 0;
   position: absolute;
-  bottom: 0;
-  right: 0;
-	width: 50;
-	height: 50;
+  bottom: 0px;
+  right: 0px;
+	max-width: 40%;
  }
 
 .cornerimageleft {
