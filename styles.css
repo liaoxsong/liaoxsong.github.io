@@ -73,6 +73,7 @@ a.current{
 .maincontainer {
 	display: flex;
 }
+
 div.logo {
     margin: 40px;
     float: left;
