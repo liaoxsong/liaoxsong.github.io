@@ -38,7 +38,8 @@ div#mainbody{
 div#mainpage {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color:  #DCDCDC;
+	margin-left: 10%;
+	margin-right: 10%;
 	height:100%;
 }
 div#blog{
@@ -68,9 +69,34 @@ p{
 	letter-spacing: 1px;
 }
 .center{
-
 	padding-left: 15%;
 	margin:auto;
 	padding-right: 15%
+}
 
+
+div.logo {
+    margin: 40px;
+    float: left;
+    width: auto;
+}
+
+.logocontainer {
+  border: 0;
+  float: left;
+  position: relative;
+	margin-right: 20;
+}
+
+.cornerimage {
+  border: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+	width: 50;
+	height: 50;
+ }
+
+h3 {
+    text-align: left;
 }
