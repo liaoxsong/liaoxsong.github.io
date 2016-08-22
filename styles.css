@@ -26,11 +26,12 @@ div#navi{
 	height:180px;
 	background-color: #F5DA81;
 	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: center
 }
 
 div#mainbody{
-	background-color: #DCDCDC;
 	height:100%;
 }
 
