@@ -34,7 +34,6 @@ div#mainbody{
 	height:100%;
 }
 
-
 div#mainpage {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -71,12 +70,15 @@ a.current{
 	padding-right: 15%
 }
 
-
+.bigcontainer {
+	display: flex;
+}
 div.logo {
     margin: 40px;
     float: left;
     width: auto;
 }
+
 
 .logocontainer {
   border: 0;
@@ -101,7 +103,6 @@ h3 {
 .gifcontainer {
 	display: flex;
 	justify-content: center;
-	/* for horizontal alignment */
 	align-items: center;
 }
 
