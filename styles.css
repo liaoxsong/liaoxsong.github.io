@@ -97,6 +97,14 @@ div.logo {
 	height: 50;
  }
 
+.cornerimageleft {
+	border: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	width: 50;
+	height: 50;
+}
 h3 {
     text-align: left;
 }
