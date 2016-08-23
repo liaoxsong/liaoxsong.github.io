@@ -105,8 +105,7 @@ a.current{
   position: absolute;
   left: 0;
   bottom: 0;
-	width: 50;
-	height: 50;
+	max-width: 40%;
 }
 h3 {
     text-align: left;
